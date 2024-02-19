@@ -1,13 +1,15 @@
 # Elements WPF Game
 
-## Purpose and contribution
-
-This WPF game was originally developed during a software development course with one of my classmates. I was responsible for the structure of the game, creating maps and basic functionalities like character movement or coin collection.
+This destktop game was developed using C# and WPF. The project was created for a software development course.
 
 ## Gameplay
 The theme of the game are the elements. The aim is to finish all the maps and collect the most coins without dieing. The hero needs to face the four elements: water, wind, fire and ground.
 Enemies start moving if the player goes too close to them and attack in case of collision. After the hero gets the key of the map, the exit door opens and the player needs to reach it to end the map.
 Results are saved to a scoreboard.
+
+### Controls
+The player can be controlled by the left and right arrows, for jumping press the upward arrow. 
+
 
 ![alt text](https://github.com/fruzsinapapp/WPF_elements_game/blob/main/Readme/gameplay.gif?raw=true)
 
@@ -16,13 +18,6 @@ During the development of this game I learned:
 - Desktop application development
 - MVVM design pattern
 - Project coordination
-
-Used technologies:
-- C#
-- .NET
-- WPF
-- XAML
-- Git, GitHub
 
 ## Visuals
 
